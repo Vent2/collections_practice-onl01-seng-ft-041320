@@ -49,4 +49,5 @@ def add_s(array)
   if array == array[1]
     puts array
   elsif array.join("s")
+  end
 end

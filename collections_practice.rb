@@ -32,5 +32,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-array.map.with_index {|letter, index| index % 3 == 0 ? letter = "$" : letter}
+array.each_with_index do |i|
+  i[2] = "$"
+end
 end

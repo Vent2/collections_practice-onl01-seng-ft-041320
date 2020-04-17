@@ -39,6 +39,6 @@ end
 
 def find_a(array)
  array.select do |i|
-   i == "a"
+   i.each_with_index == "a"
  end
 end

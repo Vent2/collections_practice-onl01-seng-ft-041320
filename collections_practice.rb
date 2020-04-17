@@ -38,7 +38,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
- new_a
+ new_a = []
  new_a << array.find {|i| i == i.start_with?("a")}
  new_a
 end

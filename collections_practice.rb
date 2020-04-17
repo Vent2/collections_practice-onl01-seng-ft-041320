@@ -38,5 +38,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  return 'find' if array.include?("a")
+  all_a = []
+  all_a << if array.include?("a")
 end

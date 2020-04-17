@@ -43,5 +43,5 @@ def find_a(array)
    puts array
  end
  end
- 
+
 end

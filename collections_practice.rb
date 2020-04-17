@@ -39,6 +39,10 @@ end
 
 def find_a(array)
   all_a = []
-  all_a << array.find{|i| i == "a" }
-  return all_a
+  array.find do |i|
+    if i == "a"
+      return i
+      
+    end
+  end
 end

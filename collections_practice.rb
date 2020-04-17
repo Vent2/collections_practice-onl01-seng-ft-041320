@@ -44,6 +44,5 @@ def find_a(array)
       return i
       all_a << i
     end
-    end
   end
 end

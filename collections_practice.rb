@@ -46,14 +46,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  new_array = []
-  array.each_with_index.collect do |element, index|
-    if element[1]
-      return element
-    else
-      element.join("s")
-      new_array << array
-    end
-
-  end
+  if (array.size == 1)
+    return array[0]
+  else 
+    return array.join("s")
 end

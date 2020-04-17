@@ -50,5 +50,3 @@ def add_s(array)
     user + "s" if user != user[1]
   end
 end
-
-

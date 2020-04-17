@@ -43,4 +43,5 @@ def find_a(array)
       all_a = array
     end
   end
+  all_a
 end

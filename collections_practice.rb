@@ -40,4 +40,5 @@ end
 def find_a(array)
   all_a = []
   all_a << if array.include?("a")
+  end
 end

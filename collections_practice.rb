@@ -38,9 +38,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array = []
-  array.find do |i|
-   new_array << i if i == a?
- end
- new_array
+  array.find{|i| i.is_a?("a")}
 end

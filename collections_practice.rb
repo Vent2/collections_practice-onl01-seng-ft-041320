@@ -39,5 +39,5 @@ end
 
 def find_a(array)
   all_a = array.find{|i| i == "a" }
-  all_a
+  return all_a
 end

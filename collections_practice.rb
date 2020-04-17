@@ -49,4 +49,3 @@ def add_s(array)
   if array == array[1]
     puts array
 end
-

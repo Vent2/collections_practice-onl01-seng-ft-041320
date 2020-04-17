@@ -46,8 +46,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  if
-    array.length[1]
+  if array.length[1]
   elsif
      array.join("s")
   end

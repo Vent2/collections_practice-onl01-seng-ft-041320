@@ -51,5 +51,4 @@ def add_s(array)
       return element
     else
       element.join("s")
-  end
 end

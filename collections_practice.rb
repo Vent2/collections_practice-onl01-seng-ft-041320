@@ -39,7 +39,8 @@ end
 
 def find_a(array)
   all_a = []
-  all_a << if array.include?("a")
+  if array.include?("a") do
+    all_a << array
   end
   all_a
 end

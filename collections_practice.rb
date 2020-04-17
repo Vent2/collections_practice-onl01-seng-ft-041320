@@ -38,5 +38,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  all_a = array.find{|i| i == "a" }.first
+  all_a = array.find{|i| i == "a" }
 end

@@ -42,6 +42,6 @@ def find_a(array)
  if array.find {|i| i == i.start_with?("a")} do
    puts array
  end
- end
-
 end
+
+

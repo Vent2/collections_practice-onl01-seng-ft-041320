@@ -47,6 +47,6 @@ end
 
 def add_s(array)
   array.reject{|u| u == u[1]}.each do |user|
-    user.join("s")
+    user + "s"
   end
 end

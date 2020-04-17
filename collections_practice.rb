@@ -54,6 +54,6 @@ def add_s(array)
       element.join("s")
       new_array << array
     end
-    
+
   end
 end

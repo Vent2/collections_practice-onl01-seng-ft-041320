@@ -42,7 +42,7 @@ def find_a(array)
   array.find do |i|
     if i == "a"
       return i
-
+      all_a << array
     end
   end
 end

@@ -47,6 +47,8 @@ end
 
 def add_s(array)
   array.map do |user|
-    user + "s" unless user == user[1]
+    user + "s" if user != user[1]
   end
 end
+
+

@@ -38,10 +38,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  all_a = []
-  if array.include?("a") do
-      all_a = array.include?("a")
-      all_a
-    end
-  end
+  puts 'find' if array.include?(value)
+  return array
 end

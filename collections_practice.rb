@@ -32,7 +32,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  binding.pry
-   return array if array.length == 3
-  array
+array.map.with_index {|letter, index| index % 3 == 0 ? letter = "$" : letter}
 end

@@ -39,6 +39,9 @@ end
 
 def find_a(array)
  new_a = []
- new_a << array.find {|i| i == i.start_with?("a")}
- new_a
+ if array.find {|i| i == i.start_with?("a")} do
+   puts array
+ end
+ end
+ 
 end

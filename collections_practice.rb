@@ -46,8 +46,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  users = [user1, user2, user3, user4, myself]
   array.reject{|u| u == u[1]}.each do |user|
-  user.join("s")
+    user.join("s")
   end
 end

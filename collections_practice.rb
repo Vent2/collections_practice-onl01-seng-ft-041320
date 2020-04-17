@@ -32,7 +32,16 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-array.each_with_index do |i|
+ array.each_with_index do |i|
   i[2] = "$"
+ end
 end
+
+def find_a(array)
+  new_array = []
+  array.find do |i|
+   i == "a"
+   new_array << i
+ end
+ new_array
 end

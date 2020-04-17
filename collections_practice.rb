@@ -40,8 +40,7 @@ end
 def find_a(array)
   new_array = []
   array.find do |i|
-   i == "a"
-   new_array << i
+   new_array << i if i == a?
  end
  new_array
 end

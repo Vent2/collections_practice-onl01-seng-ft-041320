@@ -40,4 +40,5 @@ end
 def find_a(array)
  array.select do |i|
    i == "a"
+ end
 end

@@ -49,6 +49,6 @@ def add_s(array)
   if (array.size == 1)
     return array[1]
   else
-    return array << "s"
+    return array.each.push("s")
   end
 end

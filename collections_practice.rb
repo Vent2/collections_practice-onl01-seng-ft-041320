@@ -33,6 +33,6 @@ end
 
 def kesha_maker(array)
   binding.pry
-   puts array.length(3) = "$"
+   return array if array.length == 3
   array
 end

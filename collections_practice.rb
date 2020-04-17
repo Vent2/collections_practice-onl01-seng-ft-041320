@@ -41,6 +41,6 @@ def find_a(array)
   all_a = []
   if array.include?("a") do
       return array
+    end
   end
-  all_a
 end

@@ -39,4 +39,5 @@ end
 
 def find_a(array)
  array.detect {|e| e == "a"}
+ return array
 end

@@ -40,7 +40,7 @@ end
 def find_a(array)
   all_a = []
   if array.include?("a") do
-      return array
+      all_a = array
     end
   end
 end

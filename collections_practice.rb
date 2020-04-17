@@ -46,7 +46,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.reject{|u|u == u[1]}.map do |user|
+  array.map do |user|
     user + "s"
   end
 end
